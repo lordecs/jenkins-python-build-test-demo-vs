@@ -27,8 +27,8 @@ jobs:
 
       # Build
       - name: Run a one-line script
-        run: pyhton3 ops.py
+        run: pyhton ops.py
 
       # Test
       - name: Testing
-        run: python3 -m pytest
+        run: python -m pytest
